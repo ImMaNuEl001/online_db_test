@@ -12,7 +12,7 @@ PORT = process.env.PORT || 3000;
 
 // order req and res and next
 app.get('/api', (req, res) => {
-    res.send('Hello World!');
+    res.send('Welcome!!!, get your movie api by adding a /movies to your code');
 });
 
 app.use(cors());
